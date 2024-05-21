@@ -10,11 +10,10 @@ import {
   Grid,
 } from "@mui/material";
 import { useState } from "react";
-import { CryptoState } from "../Context"; // Import CryptoState
-
+import { CryptoState } from "../Context"; 
 const DrawerWatchList = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
-  const { watchlist, removeFromWatchlist } = CryptoState(); // Get watchlist and remove function from context
+  const { watchlist, removeFromWatchlist } = CryptoState(); 
 
   return (
     <>

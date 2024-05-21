@@ -59,7 +59,7 @@ const CoinInfo = ({ coin }) => {
       type: "line",
       height: 500,
       foreColor: "#fff",
-      background: "transparent", // Set the chart background to transparent
+      background: "transparent", 
     },
     theme: {
       mode: "dark",

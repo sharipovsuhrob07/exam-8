@@ -3,7 +3,6 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 const CryptoContext = createContext();
 
 const Context = ({ children }) => {
-  // Currency state
   const [currency, setCurrency] = useState("USD");
   const [symbol, setSymbol] = useState("$");
 
@@ -30,10 +29,8 @@ const Context = ({ children }) => {
   }, [watchlist]);
 
   const addToWatchlist = (coin) => {
-    // Check if the coin is already in the watchlist
     const isCoinInWatchlist = watchlist.some((item) => item.id === coin.id);
 
-    // If the coin is not already in the watchlist, add it
     if (!isCoinInWatchlist) {
       setWatchlist((prevWatchlist) => {
         if (Array.isArray(prevWatchlist)) {

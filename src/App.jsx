@@ -3,18 +3,9 @@ import Header from "./components/Header";
 import Homepage from "./pages/HomePage";
 import CoinPage from "./pages/CoinPage";
 import "../src/App.scss";
-// import { makeStyles } from "@mui/material";
 
 const App = () => {
-  // const useStyles = makeStyles(() => ({
-  //   App: {
-  //     backgroundColor: "#14161a",
-  //     color: "white",
-  //     minHeight: "100vh",
-  //   },
-  // }));
 
-  // const classes = useStyles();
 
   return (
     <BrowserRouter>
