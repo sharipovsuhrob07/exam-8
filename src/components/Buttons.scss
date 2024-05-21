@@ -1,0 +1,20 @@
+.buttons {
+    border: 1px solid #87CEEB;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Montserrat";
+    cursor: pointer;
+    background-color: "";
+    color: "";
+    font-weight: 500;
+    width: 22%;
+  }
+  
+  .buttons:hover {
+    background-color: #87CEEB;
+    color: black;
+    font-weight: 700;
+  }
+  

@@ -1,0 +1,14 @@
+.header__logo_title {
+  flex: 1;
+  color: #87ceeb;
+  font-family: "Montserrat";
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.header__toolbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

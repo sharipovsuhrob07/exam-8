@@ -1,0 +1,9 @@
+.coin__table_row {
+  background-color: #16171a;
+  &:hover {
+    background-color: #131111;
+  }
+  cursor: pointer;
+  font-family: "Montserrat";
+}
+
